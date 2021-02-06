@@ -1,0 +1,10 @@
+[Unit]
+Description=ADCast server
+
+[Service]
+ExecStart=/home/pi/ADCast/all.sh
+WorkingDirectory=/home/pi/ADCast
+
+[Install]
+WantedBy=default.target
+WantedBy=lightdm.service
