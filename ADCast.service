@@ -2,7 +2,7 @@
 Description=ADCast server
 
 [Service]
-ExecStart=/home/pi/ADCast/all.sh
+ExecStart=/home/pi/ADCast/AVVIA-CAST.sh
 WorkingDirectory=/home/pi/ADCast
 
 [Install]

@@ -208,7 +208,7 @@ if __name__ == "__main__":
 	event.wait()
 
 	if concurrent == 1:
-		os.system('./all.sh &')
+		os.system('./AVVIA-CAST.sh &')
 
 	execfile('project.py')
 
